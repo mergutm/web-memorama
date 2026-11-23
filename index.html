@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego de Memorama</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <main>
+        <h1>Juego de Memorama</h1>
+        <div class="informacion">
+            <span>Intentos: <strong id="intentos">0</strong></span>
+            <span>Parejas: <strong id="parejas">0 / 4</strong></span>
+            <button id="iniciar" type="button">Iniciar / reiniciar</button>
+        </div>
+        <canvas id="canvas" width="600" height="500">
+            Tu navegador no soporta Canvas.
+        </canvas>
+        <p class="ayuda">Encuentra las cuatro parejas de figuras.</p>
+    </main>
+    <script src="js/memorama.js"></script>
+</body>
+</html>
